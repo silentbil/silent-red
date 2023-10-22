@@ -4,6 +4,7 @@ Real time and history alerts from פיקוד העורף
 ### demo
 ![alarm.png](alarm.png)
 ![no-alarm.png](no-alarm.png)
+![img.png](img.png)
 
 ## installation
 
