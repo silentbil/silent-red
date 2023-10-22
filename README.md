@@ -64,10 +64,19 @@ url: /hacsfiles/silent-red/silent-red.js
 type: Javascript Module
 ```
 
-Now you can add the card to your dashboard:
+### 3. Now you can add the card to your dashboard:
+
+#### show a specific city
 ```
 type: custom:silent-red
 city: באר שבע
+sensor: sensor.silent_red_alert
+refreshInterval: 3
+```
+
+#### show all cities with alerts (dont pass city parameter)
+```
+type: custom:silent-red
 sensor: sensor.silent_red_alert
 refreshInterval: 3
 ```
